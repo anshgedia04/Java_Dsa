@@ -1,4 +1,4 @@
-public class eight {
+public class reverce_8 {
     public static void main(String[] args) {
         //reverce of given number 
         int n = 51517;

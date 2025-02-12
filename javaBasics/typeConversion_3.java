@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class three_typeConversion {
+public class typeConversion_3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         // we can not give floating point to an int but reverse is true 

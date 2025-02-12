@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fibbo_six {
+public class fibbo_8 {
     public static void main(String[] args) {
     //     int a  = 0;
     //     int b = 1;

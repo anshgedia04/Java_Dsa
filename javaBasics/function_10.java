@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ten_Function {
+public class function_10 {
     public static void main(String[] args) {
         // sum();  function with no return type and no  args....;
 

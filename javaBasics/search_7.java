@@ -1,4 +1,4 @@
-public class seven_search {
+public class search_7 {
     public static void main(String[] args) {
 
         //find the repenting number times 

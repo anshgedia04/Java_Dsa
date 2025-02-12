@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class five_loops {
+public class loops_5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         // System.out.println("enter number");

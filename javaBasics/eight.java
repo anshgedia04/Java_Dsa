@@ -7,8 +7,9 @@ public class eight {
             int rem = n % 10 ;
             reverced_num = (reverced_num*10)+rem ;
             n /= 10;
-            System.out.println(reverced_num);
+         
         }
+        System.out.println(reverced_num);
        
     }
 }

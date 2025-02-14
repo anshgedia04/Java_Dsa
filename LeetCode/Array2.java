@@ -1,7 +1,8 @@
 package LeetCode;
 
 import java.util.Arrays;
-
+//their is 2d array of person and their account balance
+//find the person with the maximum balance
 public class Array2 {
     public static void main(String[] args) {
         int[][] arr = {

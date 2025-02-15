@@ -1,13 +1,12 @@
 package BinarySearch_3;
 
-public class bs1 {
+public class BinarySearch3 {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,5,6};
-        int indexSearched = BinarySearch(arr, 2);
-        System.out.println(indexSearched);
-
+        int[] arr={1,2,3,4,6,7,8,9};
+        int res = floor(arr, 5);
+        System.out.println(res);
     }
-    static int BinarySearch(int[] arr , int target){
+    static int floor(int[] arr , int target){
         int start = 0;
         int end= arr.length - 1 ;
 
@@ -23,6 +22,6 @@ public class bs1 {
                 start = mid+1;
             }
         }
-        return -1;
+        return end;
     }
 }

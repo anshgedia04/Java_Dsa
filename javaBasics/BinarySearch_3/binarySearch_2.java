@@ -1,5 +1,6 @@
 package BinarySearch_3;
-
+//ceiling of a target number is the smallest number which is greater than or equal to the target number
+//example: arr={1,2,3,4,5,7,8,9} and target=6 then ceiling is 7
 public class binarySearch_2 {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,7,8,9};

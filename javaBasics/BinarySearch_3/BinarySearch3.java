@@ -1,5 +1,6 @@
 package BinarySearch_3;
-
+//floor of a target number is the greatest number which is smaller than or equal to the target number
+//example: arr={1,2,3,4,6,7,8} and target=5 then floor is 4
 public class BinarySearch3 {
     public static void main(String[] args) {
         int[] arr={1,2,3,4,6,7,8};

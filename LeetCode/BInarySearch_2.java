@@ -1,5 +1,5 @@
 package LeetCode;
-
+//find the first and last occurence of element's index of an array
 import java.util.Arrays;
 
 public class BInarySearch_2 {

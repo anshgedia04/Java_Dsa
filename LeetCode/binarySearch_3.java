@@ -2,8 +2,8 @@ package LeetCode;
 //find an element's index in sorted infinite array
 public class binarySearch_3 {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7,8,9};
-        int res = findIndex(arr,9 );
+        int[] arr = {1,2,3,4,5,6,7,8,9,11,12};
+        int res = findIndex(arr,12);
         System.out.println(res);
     }
     static int findIndex(int[] arr,int target){

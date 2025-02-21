@@ -1,13 +1,11 @@
 package LeetCode;
 //question : find element from an moutain array
 //example : int[] arr = {1,3,5,7,6,4,2,0};
-//output : 0
-//explanation : the element 0 is the smallest element in the array and it is present in the second half of the array
-//so we will search in the second half of the array
-//we will use binary search to find the element
-//we will first find the peak of the mountain array
+//target : 0
+//output : 7
 
-
+//target : 3
+//output : 1
 public class binarySearch_5 {
     public static void main(String[] args) {
         int[] arr = {1,3,5,7,6,4,2,0};

@@ -6,8 +6,9 @@ import java.util.Arrays;
 public class Array2 {
     public static void main(String[] args) {
         int[][] arr = {
-            {1,2,3},
-            {4,5,6}
+            {1,2,15},
+            {4,5,6},
+            {5,7,0}
         };
 
         // System.out.println(Arrays.toString(findPerson(arr))); //initial output is [6,15]
@@ -24,6 +25,7 @@ public class Array2 {
             }
             
         }
+        System.out.println(Arrays.toString(sum));
         int personAcc = findMax(sum);
         return personAcc;
        
@@ -31,12 +33,14 @@ public class Array2 {
 
     static int findMax(int[] array){
         int max = array[0];
-        for(int i=1 ; i < array.length ; i++){
-            if(array[i] > max){
+        int answer = -1 ;
+        for(int i=0 ; i < array.length ; i++){
+            if(array[i] >= max){
                 max = array[i];
+                answer= i ;
             }
         }
-        return max;
+        return answer;
         
     }
 }

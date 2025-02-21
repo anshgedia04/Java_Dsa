@@ -24,7 +24,7 @@ public class fibbo_8 {
             int temp = y ;
             y = y + x ;
             x = temp ;
-            System.out.println(y + " ");
+            System.out.print(y + " ");
         }
     }
 }

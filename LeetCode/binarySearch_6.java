@@ -1,4 +1,5 @@
 package LeetCode;
+//find target in a rotated sorted array
 public class binarySearch_6 {
     public static void main(String[] args) {
         //rotated sorted array {5,6,7,0,1,2,3,4} =>

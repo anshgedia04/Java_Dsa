@@ -1,4 +1,4 @@
-package LeetCode;
+package BinarySearch_3;
 
 import java.util.Arrays;
 // search target in 2d array by linear search

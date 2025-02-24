@@ -2,7 +2,7 @@ package BinarySearch_3;
 
 import java.util.Arrays;
 // search target in 2d array by linear search
-public class binarySearch_8_2d {
+public class binarySearch_2d {
     public static void main(String[] args) {
         int[][] arr = {{1,2,3},
                        {4,5,6},

@@ -1,5 +1,5 @@
 package sorting;
-
+//selection sort 
 import java.util.Arrays;
 
 public class selectionSort {

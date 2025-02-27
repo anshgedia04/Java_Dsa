@@ -23,7 +23,7 @@ This document explains the process of how Java code is executed, step by step.
 ### Key Notes:
 - Bytecode cannot run directly on any system.
 - JVM is required to interpret the bytecode into machine code.
-- This is the reason Java is platform-independent
+- This is the reason Java is platform-independent.
 
 ---
 

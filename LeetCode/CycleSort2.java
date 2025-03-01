@@ -28,7 +28,7 @@ public class CycleSort2 {
                 return arr[i]; // Duplicate found
             }
         }
-        return -1; // No duplicate found (shouldn't happen per problem constraints)
+        return -1; 
     }
 
     static void swap(int[] arr, int first, int second) {

@@ -12,13 +12,13 @@ public class CycleSort1 {
     static int cycleSort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n; ) {
-            int correctIndex = arr[i]; // The correct position for arr[i]
+            int correctIndex = arr[i]; 
 
-            // Ensure arr[i] is within range and not already in the correct position
+            
             if (arr[i] < n && arr[i] != arr[correctIndex]) {
                 swap(arr, i, correctIndex);
             } else {
-                i++; // Move to the next index only when arr[i] is correctly placed
+                i++; 
             }
         }
 

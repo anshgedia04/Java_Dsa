@@ -3,7 +3,7 @@ package LeetCode;
 import java.util.ArrayList;
 import java.util.List;
 // find all missing numbers
-public class CycleSortAllMissing {
+public class CycleSort3 {
     public static void main(String[] args) {
         int[] arr = {4, 0, 1, 2}; // Example input with multiple missing numbers
         List<Integer> missingNumbers = cycleSort(arr);

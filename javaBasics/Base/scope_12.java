@@ -1,3 +1,4 @@
+package Base;
 public class scope_12 {
     public static void main(String[] args) {
         int a = 10 ;

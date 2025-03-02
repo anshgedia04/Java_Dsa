@@ -1,3 +1,4 @@
+package Base;
 import java.util.Scanner;
 
 public class function_10 {

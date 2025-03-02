@@ -15,6 +15,6 @@ public class Str4 {
             char ch = (char)('a' + i );
             S1.append(ch) ; 
         }
-        System.out.println(S1);
+        System.out.println(S1); //good solution compare to above solution bcz it is not creating a new object in every loop
     }
 }

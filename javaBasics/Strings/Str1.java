@@ -17,6 +17,6 @@ public class Str1 {
         System.out.println(two == four);//output : false //because both are pointing to different memory location
         System.out.println(two.equals(four));//output : true //Because it checks the value
 
-        System.out.println(four.charAt(3));//output : r
+        System.out.println(four.charAt(3)); //output : w
     }
 }

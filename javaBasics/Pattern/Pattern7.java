@@ -1,5 +1,8 @@
 package Pattern;
-
+//    1
+//   212
+//  32123
+// 4321234
 public class Pattern7 {
     public static void main(String[] args) {
         int n= 4;

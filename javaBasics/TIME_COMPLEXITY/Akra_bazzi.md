@@ -125,21 +125,6 @@ $$
 
 ---
 
-## 🎡 Python Code for Numerical Approximation
-```python
-import sympy as sp
-
-# Define p as a symbol
-p = sp.Symbol('p')
-
-# Define the equation to solve
-expr = 2 * (1/2)**p + (8/9) * (3/4)**p - 1
-
-# Solve for p
-solution = sp.solve(expr, p)
-print("Value of p:", solution)
-```
-
 ---
 
 ## 🎯 **Conclusion**

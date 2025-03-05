@@ -135,12 +135,5 @@ This method is powerful for solving complex recurrences in algorithms! 🚀
 
 ---
 
-## 📌 How to View Properly in VS Code
-1. Install the **Markdown+Math** extension from the **VS Code Extensions Marketplace**.
-2. Use `Ctrl + Shift + V` to preview the Markdown file.
-3. Alternatively, open the file in **Jupyter Notebook** or an online Markdown editor that supports LaTeX.
 
----
-
-Now your formulas will render correctly! ✅ 🎯 Let me know if you need any more modifications. 🚀
 

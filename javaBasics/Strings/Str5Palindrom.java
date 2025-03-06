@@ -1,5 +1,5 @@
 package Strings;
-
+//palindrom
 public class Str5Palindrom {
     public static void main(String[] args) {
         String s1 = "abcba";

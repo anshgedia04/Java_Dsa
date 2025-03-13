@@ -1,5 +1,5 @@
 package recursion;
-
+//check sort
 public class Sorted {
     public static void main(String[] args) {
         int[] arr = {1,2,5,4,5,6};

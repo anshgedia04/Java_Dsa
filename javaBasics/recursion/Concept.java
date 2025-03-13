@@ -1,5 +1,5 @@
 package recursion;
-
+//print nums --
 public class Concept {
     public static void main(String[] args) {
         fun(10);

@@ -1,5 +1,5 @@
 package recursion;
-
+//find fact
 public class Fact {
     public static void main(String[] args) {
         int fact = facto(15);

@@ -1,7 +1,7 @@
 package recursion;
 
 import java.util.ArrayList;
-//find all index of occurance
+//find all index of occurance //
 public class findAllIindex {
     
     public static void main(String[] args) {

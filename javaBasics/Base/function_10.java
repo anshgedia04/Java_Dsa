@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class function_10 {
     public static void main(String[] args) {
-        // sum();  function with no return type and no  args....;
+        sum();  //function with no return type and no  args....;
 
         // sum2(10, 20); // function with non return type and with args...;
 

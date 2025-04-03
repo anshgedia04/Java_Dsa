@@ -1,5 +1,5 @@
 package LeetCode;
-//their is a array of integers. //
+//their is a array of integers. 
 //return the number of count of even digits in the array.
 public class Array1 {
     public static void main(String[] args) {

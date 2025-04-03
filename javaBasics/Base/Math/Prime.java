@@ -1,5 +1,5 @@
 package Base.Math;
-
+//prime nums
 public class Prime {
     public static void main(String[] args) {
         int n = 40;

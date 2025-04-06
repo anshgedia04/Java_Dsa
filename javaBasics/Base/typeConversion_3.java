@@ -15,7 +15,7 @@ public class typeConversion_3 {
         float c = (float)(b); //converting a int into float 
         System.out.println(c);
 
-        int N = 257 ;  //we are converting a int into byte
+        int N = 258 ;  //we are converting a int into byte
         byte d = (byte)(N); //output is 1 bcz limit of byte is 256 // 257 % 256 = 1 
         System.out.println(d);
 

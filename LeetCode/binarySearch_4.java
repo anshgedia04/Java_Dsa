@@ -10,7 +10,7 @@ public class binarySearch_4 {
     static int peakMountain(int[] arr){
         int start = 0;
         int end = arr.length-1;
-        while (start != end) {
+        while (start != end) { // start < end is also correct
             int mid = (start+end) / 2 ;
             if(arr[mid] > arr[mid+1]){
                 end = mid;

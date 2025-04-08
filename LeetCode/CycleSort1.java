@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class CycleSort1 {
     public static void main(String[] args) {
-        int[] arr = {3, 0, 1, 2}; // Example input
+        int[] arr = {3, 0, 2}; // Example input
         int num = cycleSort(arr);
         System.out.println("Missing number: " + num);
     }

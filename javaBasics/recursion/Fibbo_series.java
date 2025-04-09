@@ -1,5 +1,5 @@
 package recursion;
-
+//print fib series till n
 public class Fibbo_series {
     public static int fibonacci(int n) {
         if (n <= 1) {

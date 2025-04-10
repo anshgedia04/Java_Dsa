@@ -43,7 +43,7 @@ public class MergeSort {
             mix[k++] = first[i++];
         }
 
-   
+        // Copy remaining elements from second array
         while (j < second.length) {
             mix[k++] = second[j++];
         }

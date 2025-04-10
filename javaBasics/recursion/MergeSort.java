@@ -15,7 +15,6 @@ public class MergeSort {
             return arr;
         }
 
-
         int mid = arr.length / 2;
 
         int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
@@ -27,9 +26,9 @@ public class MergeSort {
     private static int[] merge(int[] first, int[] second) {
         int[] mix = new int[first.length + second.length];
 
-        int i = 0; 
-        int j = 0; 
-        int k = 0; 
+        int i = 0; // pointer for first
+        int j = 0; // pointer for second
+        int k = 0; // pointer for mix
 
         while (i < first.length && j < second.length) {
             if (first[i] < second[j]) {
@@ -39,12 +38,12 @@ public class MergeSort {
             }
         }
 
-
+        // Copy remaining elements from first array
         while (i < first.length) {
             mix[k++] = first[i++];
         }
 
-     
+        // Copy remaining elements from second array
         while (j < second.length) {
             mix[k++] = second[j++];
         }

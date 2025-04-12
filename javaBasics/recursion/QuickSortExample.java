@@ -1,7 +1,7 @@
 package recursion;
 
 public class QuickSortExample {
-    
+    //quick sort using recursion
     
     public static void quickSort(int[] arr, int st, int end) {
         if (st < end) {

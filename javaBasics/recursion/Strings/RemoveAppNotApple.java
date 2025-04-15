@@ -1,5 +1,5 @@
 package recursion.Strings;
-
+//remov app when it not equals to str !!!!!
 public class RemoveAppNotApple {
     public static void main(String[] args) {
         RemoveAppNotApple("" , "mainappl");

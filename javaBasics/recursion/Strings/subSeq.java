@@ -1,5 +1,5 @@
 package recursion.Strings;
-
+//sub sequences 
 public class subSeq {
     public static void main(String[] args) {
         subSeq("", "abc");

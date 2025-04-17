@@ -2,7 +2,7 @@ package recursion.subset;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//subset of given array
 public class subSet {
     public static void main(String[] args) {
      int[] arr = {1,2,3};

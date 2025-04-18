@@ -1,6 +1,8 @@
 package OOP.base;
-
-class Student {
+//class is templet for the object
+//object is a instance of the class 
+//new is used to creat a object
+class Student { // class -> and s1 is object
  int Rno;
 String name ;
 float marks ;

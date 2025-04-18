@@ -8,9 +8,10 @@ public class subSet {
      int[] arr = {1,2,3};
      
      List<List<Integer>> result = getSubsets(arr);
-     for (List<Integer> subset : result) {
-        System.out.println(subset);
-    } 
+    //  for (List<Integer> subset : result) {
+    //     System.out.println(subset);
+    // } 
+    System.out.println(result);
     }
 
     static List<List<Integer>> getSubsets(int[] arr){

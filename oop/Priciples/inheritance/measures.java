@@ -6,9 +6,9 @@ public class measures {
     int height = 15;
 
     measures(){
-//        this.length = 0;
-//        this.width = 0;
-//        this.height = 0;
+        this.length = 0;
+        this.width = 0;
+        this.height = 0;
     }
 
      measures(int length, int width, int height) {

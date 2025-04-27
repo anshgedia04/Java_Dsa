@@ -5,6 +5,7 @@ public class main {
         Triangle first = new Triangle(4.2 , 5);
         System.out.println(first.getArea());
         square s1 = new square(12);
+//        System.out.println(s1.length);
         System.out.println(s1.getArea());
     }
 }

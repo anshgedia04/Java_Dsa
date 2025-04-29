@@ -9,6 +9,7 @@ public class main {
         d1.career();
         d1.partner();
 
+        parent.hello();
 
     }
 

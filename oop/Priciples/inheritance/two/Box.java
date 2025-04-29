@@ -9,6 +9,7 @@ public class Box {
         this.l = 0;
         this.h = 0;
         this.w = 0;
+
     }
 
     public Box(int l, int h, int w) {

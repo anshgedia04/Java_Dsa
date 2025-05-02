@@ -5,7 +5,7 @@ public class Triangle extends Shape{
 
     public Triangle(double base, int height) {
         super(base, height);
-        this.area = base*height;
+        this.area = 0.5 * this.height * this.base;
     }
     public double getArea() {
         return area;

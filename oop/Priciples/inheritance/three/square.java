@@ -1,14 +1,14 @@
 package oop.Priciples.inheritance.three;
 
 public class square extends Shape{
-    int area;
+   double area;
 
-    public square(int side) {
-        super(side);
-        this.area = side*side;
+    public square(int length) {
+        super(length);
+        this.area = Math.pow(this.length , 2);
     }
 
-    public int getArea() {
+    public double getArea() {
         return area;
     }
 }

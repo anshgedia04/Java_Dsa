@@ -7,6 +7,10 @@ public class one {
         return bankAcc;
     }
 
+    public void setBankAcc(int bankAcc) {
+        this.bankAcc = bankAcc;
+    }
+
     public one(int bankAcc) {
         this.bankAcc = bankAcc;
     }

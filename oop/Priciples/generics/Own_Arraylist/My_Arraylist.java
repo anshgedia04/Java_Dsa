@@ -54,6 +54,5 @@ public class My_Arraylist {
 
     public void setValue(int index, int value) {
         data[index] = value;
-        getArraylist();
     }
 }

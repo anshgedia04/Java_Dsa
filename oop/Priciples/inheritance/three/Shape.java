@@ -19,8 +19,8 @@ public class Shape {
         this.width = width;
     }
     //square
-    Shape(int side){
-        this.length = side;
+    Shape(int length){
+        this.length = length;
     }
     //triangle[
 

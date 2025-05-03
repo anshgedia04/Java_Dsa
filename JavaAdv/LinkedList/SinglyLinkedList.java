@@ -1,8 +1,9 @@
 package JavaAdv.LinkedList;
 
 public class SinglyLinkedList extends Node{
-    private Node head = null;
-    private Node tail = null;
+    //make head and tail as private
+    public Node head = null;
+    public Node tail = null;
 
     public void addFirst(int data) {
         Node newNode = new Node(data);
@@ -95,6 +96,61 @@ public class SinglyLinkedList extends Node{
         else{
             System.out.println("Element not found");
         }
+    }
+
+    public void insertAtIndexRec(int index, int value) {
+        head = insertRecursively(head, index, value);
+    }
+
+    private Node insertRecursively(Node current, int index, int value) {
+        // Base case: insert at head
+        if (index == 0) {
+            Node newNode = new Node(value);
+            newNode.next = current;
+            return newNode;
+        }
+
+        if (current == null) {
+            throw new IndexOutOfBoundsException("Index out of range");
+        }
+
+        // Recursive step
+        current.next = insertRecursively(current.next, index - 1, value);
+        return current;
+    }
+
+//    public void removeDuplicates(){
+//
+//        Node temp = head ;
+//
+//        while(temp.next != null){
+//            if(temp.value == temp.next.value){
+//                temp.next = temp.next.next;
+//            }else{
+//                temp = temp.next;
+//            }
+//        }
+//    }
+
+    public void Merge(SinglyLinkedList list){
+        Node temp = tail ;
+        temp.next = list.head;
+        tail = list.tail;
+    }
+
+    public boolean Is_cycle(){
+        Node fast =  head;
+        Node slow =  head;
+
+        while(fast != null && fast.next != null){
+            slow =  slow.next;
+            fast =  fast.next.next;
+            if(fast == slow){
+                System.out.println("DANGER");
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean search(int data){

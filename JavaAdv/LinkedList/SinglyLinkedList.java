@@ -153,6 +153,27 @@ public class SinglyLinkedList extends Node{
         return false;
     }
 
+    public int CycleLength(){
+        Node fast =  head;
+        Node slow =  head;
+
+        while(fast != null && fast.next != null){
+            slow =  slow.next;
+            fast =  fast.next.next;
+            if(fast == slow){
+                Node temp = slow ;
+                int length = 0 ;
+                do{
+                  temp = temp.next;
+                  length++;
+                }while(temp != slow);
+                return length;
+            }
+        }
+        return 0;
+    }
+
+
     public boolean search(int data){
         Node temp = head;
         while(temp != null){

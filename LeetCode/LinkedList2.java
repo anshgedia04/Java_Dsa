@@ -28,4 +28,4 @@ public class LinkedList2 {
         }
         return answer;
     }
-}
+}//

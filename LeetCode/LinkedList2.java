@@ -14,7 +14,7 @@ public class LinkedList2 {
         }while (fast != slow);
 
         if(slow == 1){
-            return ;
+            return true;
         }
         return false;
     }

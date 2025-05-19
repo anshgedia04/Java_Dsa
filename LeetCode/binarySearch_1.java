@@ -1,6 +1,6 @@
 package LeetCode;
 //find the next letter of the target letter in the array
-//example: arr={'a' , 'b' , 'c' , 'e'} and target='b' then next letter is 'c'
+//example: arr={'a' , 'b' , 'c' , 'e'} and target='b' then next letter is
 public class binarySearch_1 {
     public static void main(String[] args) {
         char[] arr =  {'a' , 'b' , 'c' , 'e'};

@@ -18,7 +18,7 @@ public class main {
         list4.addFirst(17);
         list4.addFirst(15);
         list4.addFirst(201);
-
+        list4.addFirst(100);
         list4.remove(15);
         list4.insertAtIndexRec(2,3);
         list.Merge(list4);

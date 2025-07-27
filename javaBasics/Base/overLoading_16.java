@@ -16,6 +16,7 @@ public class overLoading_16 {
         sum(23,45,67,89,100); // output : [23, 45, 67, 89, 100]
         sum("kunal","kushal","rohan"); // output : [ abc , kushal, rohan]
     }
+    
     static void fun(int a){
         System.out.println("first one");
     }

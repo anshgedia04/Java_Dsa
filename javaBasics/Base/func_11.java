@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class func_11 {
     public static void main(String[] args) {
-        //lets swap the nums ;
+        // lets swap the nums ;
         // int a = 10 ;
         // int b = 20 ;
         // swapNums(a,b);

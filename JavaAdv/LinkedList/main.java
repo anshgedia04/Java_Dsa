@@ -33,7 +33,6 @@ public class main {
 //        list2.insertAfter(30 , 12);
 //        list2.insertAfter(20 , 15);
 //        list2.insertBefore(15 , 10);
-//
 //        list2.removeAfter(10);
 //        list2.removeBefore(30);
 //        list2.display();

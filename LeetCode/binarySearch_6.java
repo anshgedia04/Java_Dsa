@@ -35,7 +35,7 @@ public class binarySearch_6 {
                 start = mid+ 1 ;
             }
         }
-        return -1 ;
+        return -1;
     }
 
     static int findTarget(int[] arr ,int target, int in1 , int in2){

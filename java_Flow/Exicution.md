@@ -6,7 +6,7 @@ This document explains the process of how Java code is executed, step by step.
 ```plaintext
   +---------------+        +---------------+         +------------------+         +------------------+
   | .java file    |        | Compiler      |         | Bytecode (.class)|         | Machine Code     |
-  | (Human Readable) |----->| (javac)       |-------> | (Platform-Independent) |----->| (Binary: 0s and 1s) |
+  | (Human Readable) |----->| (javac)       |-------> |(Platform-Independent)|----->| (Binary: 0s and 1s) |
   +---------------+        +---------------+         +------------------+         +------------------+
          |                                                             |
    This is the                                                    Interpreted by
